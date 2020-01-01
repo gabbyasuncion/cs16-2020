@@ -1,0 +1,281 @@
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	}
+
+#side-carousel img {
+	margin: 0 auto;
+	}
+
+#logo-img {
+	position: relative;
+	padding-right: 0;
+    padding-left: 0;
+	height: 40px;
+	width: auto;
+}
+
+#logo-title {
+	position: relative;
+	top: -10px;
+	color: white;
+	font-family: "Arial Rounded MT Bold", sans-serif;
+	font-size: 25px;
+}
+
+#nav-bar {
+	background-color: #2D71B5;
+	color: white;
+}
+
+#nav-text {
+	background-color: #2D71B5;
+	color: white;
+	font-family: "Arial", sans-serif;
+	font-size: 15px;
+}
+
+#welcome-text {
+	position: relative;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#link-text {
+	color: #2D71B5;
+}
+
+#symbols {
+	height: 15px;
+	width: auto;
+}
+
+#alert-panel {
+	border-color: #DD6262;
+	border-width: medium;
+}
+
+#alert-panel-top {
+	border-color: #DD6262;
+	border-radius: 0px;
+	background-color: #DD6262;
+	color: white;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#prof-panel {
+	background-color: #eee;
+}
+
+#prof-pic {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	justify-content: center;
+	width: 175px;
+	height: 175px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#cit-pic {
+	display: flex;
+	width: 165px;
+	height: 165px;
+	margin: auto;
+	align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#prof-text {
+	font-family: "Arial", sans-serif;
+	color: black;
+	text-align: center;
+}
+
+#manage-text {
+	font-family: "Arial", sans-serif;
+	color: #2D71B5;
+	text-align: center;
+}
+
+hr {
+	margin-top:1;
+	margin-bottom:1;
+	border:0;
+	height:1px;
+	background-color: #C3C3C3;
+}
+
+#status-panel {
+	border-color: #6699CC;
+	border-width: medium;
+}
+
+#status-panel-top {
+	border-color: #6699CC;
+	border-radius: 0px;
+	background-color: #6699CC;
+	color: white;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#mood_symbol {
+	height: 25px;
+	width: auto;
+}
+
+#status-box {
+	background-color: #D5E8FB;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#status-input {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	background-color: #D5E8FB;
+}
+
+#status-text-black {
+	font-family: "Arial", sans-serif;
+	color: black;
+	font-size: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+
+#status-text-grey {
+	font-family: "Arial", sans-serif;
+	color: #818181;
+	font-size: 15px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+
+#status-text-blue {
+	font-family: "Arial", sans-serif;
+	color: #2D71B5;
+	font-size: 15px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+
+#status-text-light-grey {
+	font-family: "Arial", sans-serif;
+	color: #818181;
+	font-size: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+#status-pic {
+	float: left;
+	width: 13%;
+	height: auto;
+	margin-left: 15px;
+	position: relative;
+}
+
+.status-txt {
+	position: relative;
+	float: left;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: black;
+	font-size: 15px;
+}
+
+#post {
+	overflow: hidden;
+}
+
+#vma-img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+#friend-panel {
+	border-color: #6699CC;
+	border-width: medium;
+}
+
+#friend-panel-top {
+	border-color: #6699CC;
+	border-radius: 0px;
+	background-color: #6699CC;
+	color: white;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#friend-pic {
+	float: left;
+	width: 30%;
+	height: auto;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+#friend-txt {
+	position: relative;
+	float: left;
+	margin-left: 15px;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: black;
+	font-size: 15px;
+}
+
+#friend-txt-bottom {
+	position: relative;
+	float: left;
+	margin-top: auto;
+	margin-bottom: 15px;
+	color: black;
+	font-size: 15px;
+}
+
+#friend-more {
+	font-family: "Arial", sans-serif;
+	color: #2D71B5;
+	font-size: 15px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+    margin-top: 20px;
+    background-color: #eee;
+    color: black;
+}
+
+.footer-blurb-item {
+    padding: 20px;
+    }
+
+.small-print {
+	background-color: #fff;
+	padding: 30px 0;
+}
+
+.feature,
+.page-intro,
+.article-intro,
+.small-print {
+	text-align: center;
+	}

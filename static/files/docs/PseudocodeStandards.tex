@@ -1,0 +1,110 @@
+%==============================================================================
+% Formatting parameters
+%==============================================================================
+
+\documentclass[11pt]{article}			% 11pt article
+\makeatletter					% Make '@' accessible.
+\pagestyle{empty}				% We do our own page headers.
+\oddsidemargin=0in				% Left margin minus 1 inch.
+\evensidemargin=0in				% Same for even-numbered pages.
+\textwidth=6.5in				% Text width (8.5in - margins).
+\topmargin=0in					% Top margin minus 1 inch.
+\headsep=0in					% Distance from header to body.
+\textheight=9in					% Body height (incl. footnotes)
+\skip\footins=4ex				% Space above first footnote.
+\hbadness=10000					% No "underfull hbox" messages.
+\makeatother					% Make '@' special again.
+
+%==============================================================================
+% Packages used
+%==============================================================================
+
+\usepackage{amsmath}				% want AMS fonts
+\usepackage[pdftex]{graphicx}			% for including images
+%\usepackage{algorithmic}			% may want algo package\
+\usepackage{hyperref}				% for links
+\usepackage{./cs0160}				% if you want all the nice CS 16 macros, use this package
+
+%==============================================================================
+% Title
+%==============================================================================
+
+\begin{document}
+
+\begin{center}
+\begin{LARGE}
+\textbf{CS 16 Pseudocode standards}
+\end{LARGE}
+\end{center}
+In CS 16, we expect your pseudocode to be simple, readable, and consistent.  Dasgupta does a really beautiful job of this, so we will teach you by his example how to write pseudocode.
+
+\section*{Example: DFS (3.2.2)}
+\begin{pseudo}
+\underline{procedure explore} $(G, v)$
+
+Input: $G = (V, E)$ is a graph; $v \in V$
+Output: visited$(u)$ is set to true for all nodes $u$ reachable from $v$
+
+visited$(v)$ = true
+previsit$(v)$
+for each edge $(v, u) \in E$
+	if not visited$(u)$: explore$(u)$
+postvisit$(v)$
+
+\underline{procedure dfs} $(G)$
+
+for all $v \in V$:
+	visited$(v)$ = false
+
+for all $v \in V$:
+	if not visited$(v)$: explore$(v)$
+\end{pseudo}
+I'll point out a few things about this example that you should emulate in your pseudocode.  Dasgupta clearly marks and appropriately names his functions.  He also defines his inputs and outputs immediately.  Notice the way he writes his loops: he uses a colon and tabs instead of braces to indicate what is in the loop, and the loop condition is closer to English than code.
+
+\section*{Example: Prim's algorithm (5.1.5)}
+\begin{pseudo}
+$X = \{\}$ (edges picked so far)
+repeat until $\mid X \mid = \mid V \mid - 1$:
+	pick a set $S \in V$ for which $X$ has no edges between $S$ and $V - S$
+	let $e \in E$ be the minimum-weight edge between $S$ and $V - S$
+	$X = X \cup \{e\}$
+\end{pseudo}
+This snippet of pseudocode has a couple of great things about it.  When Dasgupta assigns $X = \{\}$, he then explains what that means: $X$ is the set of edges picked so far.  Also, he uses plain words to say ``the minimum-weight edge between $S$ and $V - S$'' rather than writing code to find it.\\
+\\
+In general, if you need a small piece of functionality that is unrelated to the point of your algorithm, and that is simple enough that any CS16 student could easily write pseudocode for it, you may just say it in words instead of writing pseudocode for it.  Examples of such things are: finding a minimum-weight edge between two sets of vertices, sorting a set of edges by weight, and finding the minimum in an array.  If a data structure's ADT includes a method, you may use it.
+
+\section*{Example: Java to pseudocode conversion}
+
+This example is NOT from Dasgupta, but may help those of you who are used to Java learn to write pseudocode.
+
+\subsection*{Java Version}
+
+\begin{pseudo}
+public int arrayMax(int[] intArray, int n) \{
+	int maximum = intArray[0];
+	for (int i = 1; i < n; i ++) \{
+		if (maximum < intArray[i]) \{
+			maximum = intArray[i];
+		\}
+	\}
+	return maximum;
+\}
+\end{pseudo}
+
+\subsection*{PseudoCode Version}
+
+\begin{pseudo}
+\underline{procedure arrayMax} $(A, n)$
+
+Input: An array $A$ storing $n \geq 1$ integers
+Output: The maximum element in $A$
+
+$maximum = A[0]$
+for $i = 1$ to $n-1$:
+	if $maximum < A[i]$: $maximum = A[i]$
+
+return $maximum$
+\end{pseudo}
+
+
+\end{document}

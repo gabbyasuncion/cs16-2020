@@ -1,0 +1,217 @@
+%==============================================================================
+% Homework Template
+%==============================================================================
+
+
+%Fill out this line with the homework number
+\newcommand{\course}{CS 16}
+\newcommand{\hw}{Homework \#}
+
+
+%==============================================================================
+% Formatting parameters
+%==============================================================================
+
+\documentclass[11pt]{article}			% 11pt article
+\makeatletter					% Make '@' accessible.
+\pagestyle{myheadings}				% We do our own page headers.
+
+
+\def\@oddhead{\bf \course: \hw \hfill} 
+
+
+\oddsidemargin=0in				% Left margin minus 1 inch.
+\evensidemargin=0in				% Same for even-numbered pages.
+\textwidth=6.5in				% Text width (8.5in - margins).
+\topmargin=0in					% Top margin minus 1 inch.
+\headsep=0.2in					% Distance from header to body.
+\textheight=8in					% Body height (incl. footnotes)
+\skip\footins=4ex				% Space above first footnote.
+\hbadness=10000					% No "underfull hbox" messages.
+\makeatother					% Make '@' special again.
+
+%==============================================================================
+% Packages used
+%==============================================================================
+
+\usepackage{amsmath}				% want AMS fonts
+\usepackage[pdftex]{graphicx}			% for including images
+\usepackage{hyperref}				% for links
+\usepackage{enumerate}
+\usepackage{/course/cs016/latex/cs0160}
+
+%==============================================================================
+% Macros
+%==============================================================================
+\newcommand{\hooray}[1]{#1}
+
+%==============================================================================
+% Title
+%==============================================================================
+
+\begin{document}
+\centerline{\bf \LARGE\hw}
+
+\section{What is LaTeX?}
+
+\begin{itemize}
+	\item LaTeX is a document markup language
+	\item You prepare a (.tex) document, and compile it into a PDF
+	\item LaTeX helps make your homework pretty (just like this document!) and makes us happy when you use it!
+	\item Make sure to open the provided \verb|.tex| file to see how we coded all of these examples
+\end{itemize}
+
+\section{Editing LaTeX files}
+\begin{itemize}
+	\item You'll want to use some LaTeX editor to edit and compile your \verb|.tex| files
+	\item Try using Kile for now by typing \verb|kile| into your terminal, or open an existing \verb|.tex| file by typing \verb|kile filename.tex|
+	\item It may be useful to open Kile and Okular (a PDF viewer) side by side
+		\begin{itemize}
+		 \item Then when you make a PDF from Kile (by clicking the blue gear with a PDF symbol), your product will refresh in Okular automatically
+		\item The PDF will be created in the same folder as your \verb|.tex| file
+		\end{itemize}
+
+\end{itemize}
+
+
+\section{Code}
+Here is an example of putting code in your homework:
+\begin{verbatim}
+def bubbleSort(A):
+    swapped = True
+    while swapped:
+        swapped = False
+        for i in range(len(A)-1):
+            if A[i] > A[i+1]:
+                A[i], A[i+1] = A[i+1], A[i]
+                swapped = True
+\end{verbatim}
+
+\section{Lists}
+
+\begin{enumerate}
+ \item Enumerate automatically makes appropriate
+ \item numbers or letters at the start of your
+ \item list items.
+	\begin{itemize}
+	\item[a.] Itemize uses bullets unless you make labels.
+	\item This has no label.
+	\item[i.] This has a label. \begin{enumerate}
+	       \item Nested lists
+		\item of the same kind
+		\item look different
+	      \end{enumerate}
+
+       \end{itemize}
+
+\end{enumerate}
+
+You can format any text as code, if you'd like, by declaring it as $\backslash$\verb|verb|$\mid$\verb|code here|$\mid$.
+
+
+\section{Tables}
+Perhaps you would like to put a table in your homework---here is how.  Note that 'lll' means three left-justified columns, whereas 'lcr' would be a left-justified column, a center-justified column, and a right-justified column.  Also, in a table (and in general) double backslash creates a \\new \\line.
+\begin{center}
+% use packages: array
+\begin{tabular}{lll}
+Name & Street Number & Other random number \\ 
+Anastasia & 1441 & 13577893 \\ 
+Bob & 6461 & 9085653233
+\end{tabular}
+\end{center}
+If you want lines on your table, just put them there with vertical bars and \verb|\hline|.
+\begin{center}
+% use packages: array
+\begin{tabular}{|l|c||r|}
+\hline
+Name & Street Number & Other random number \\ 
+\hline
+Anastasia & 1441 & 13577893 \\ 
+\hline
+Bob & 6461 & 9085653233\\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Math}
+To make math things look like math, write them between dollar signs.  If you use double dollar signs, then your math goes on its own line with nice spacing.  You can write a lot of useful things this way.\\
+
+\subsection{Sums}
+This is a plain old sum: $\sum a_i = 10$\\
+This is a sum with upper and lower bounds: $\sum_{i = 1}^{5} 1^i = 5$\\
+That's ugly, so here's a prettier version, also with double dollar signs:
+ $$\displaystyle \sum_{i = 1}^{23} a^i = 5$$\\
+If we just want one character, we don't need braces: $\displaystyle \sum_1^8 x_i = 5$\\
+
+\subsection{Fractions (and other math, like logs, exponents, and roots)}
+We can do a similar thing with fractions: $\frac{1}{5}$\\
+Here's another version: $\dfrac{1}{5}$\\
+Sometimes we get really complicated fractions: $(\dfrac{\sqrt{2} - \log_2 (\beta \bmod x)}{\log 5^{x + 1} \times \dfrac{2}{3}} \times 5) + \delta \leq 12$\\
+Note: you should use $\log$ and $\mod$ instead of just typing 'log' and 'mod'. To do bases, you typically use an underscore. For example, $\log_{2} n^2$.
+\subsection{Prettier Equations and alignment}
+Align can be used to make your equations line up in nice ways.  Note that the syntax is similar to the syntax for tables.  It puts your equations in the center of the page and right-justifies them.
+\begin{align*}
+ x + 3 = 5 \\
+ 2x + 30 = 5000
+\end{align*}
+You can use double ampersands to separate multiple equations on one line.
+\begin{align}
+ x + 3 = 5 && y < 1 && x = y \\
+ x + 3 = 5 && z \ge 2
+\end{align}
+In general, putting a * means that your equations won't get numbered.
+
+\subsection{Big-O Notation}
+Big-O notation is just written with a big $O$, as in $O(n\log n)$.
+
+
+\subsection{Other random stuff that will be helpful}
+\begin{itemize}
+\item Floors and ceilings: $\lfloor x \rfloor$ and $\lceil x \rceil$
+\item Comparison: $\{\leq, \geq, >, <, =, \neq\}$
+\item Macros: 
+\begin{itemize}
+ \item This is in \verb|inline verbatim|.
+ \item I write $n \log n$  a lot.
+\end{itemize}
+\item Special characters:
+\begin{itemize}
+ \item $\backslash$ (backslash) - escapes, begins macros
+ \item \~ ~%this tilde is necessary to keep the tilde to the left from going over (tilde) - same with the tilde below
+(tilde) - an unbreakable space
+ \item \_ (underscore) - subscripts in math mode (they cause errors outside of math mode)
+ \item \^ ~(superscript) - superscripts in math mode (they cause errors outside of math mode)
+ \item \{ , \} (curly brackets) - group commands
+\end{itemize}
+
+\end{itemize}
+
+\section{Images}
+You can also include images, such as this one:\\
+\includegraphics[width=3in]{rabbit.jpg}
+
+\section{Pseudocode}
+\begin{pseudo}
+Surround your pseudocode with
+    this environment, which will both respect your tabs and line breaks
+        and allow $M \alpha \dagger h$ formatting to work.
+            This environment comes with the package 
+                /course/cs0160/latex/cs0160.sty
+                    which is included at the top of this file.
+\end{pseudo}
+
+\section{If you're super fancy}
+\begin{description}
+ \item[Firstly,]you can define macros by putting something like \hooray{this} at the top of your homework:
+\begin{center} \verb|\newcommand{\command}[# args]{whatever you want using #arg1 #arg2 #argEtc}|\\ \end{center}
+
+
+ \item[Secondly,]you can reflect, rotate, and scale text, and anything else:\\
+\reflectbox{\rotatebox{-5}{\scalebox{2}{like this!}\includegraphics[width=1in]{rabbit.jpg}}}\\
+
+ \item[Thirdly,]you can include packages by putting this at the top of your homework:
+\begin{center} \verb|\usepackage{package name}|\\ \end{center}
+
+\end{description}
+
+\end{document}

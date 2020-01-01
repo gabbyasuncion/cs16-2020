@@ -1,0 +1,68 @@
+<html>
+	<body>    
+          <h2>Homework Handin Help</h2>
+
+          <h3>How to generate PDF's</h3>
+            <ul>
+              <li><strong>LaTeX:</strong>  If you are using LaTeX, you can typeset the work on you .tex file by typing in a terminal:
+              <p style="text-align:center; font-family:monospace">pdflatex &lt;filename.tex&gt;</p>
+              This produces three files:  a log file, an aux file, and a pdf file.  You can ignore and/or delete the non-pdf files.</li>
+              <li><strong>Word:</strong>  In most versions of Word, there is a PDF option in the Save As menu.  <img src="images/save_as_dialog.jpg" alt="Save As... in Microsoft Word" style="display: block; margin: 5px auto;" />  If there isn't...</li>
+              <li><strong>Others/General Case:</strong> If your program is WYSIWYG (say, OpenOffice), there's a good chance you can 'print to PDF' from the Print menu.  <img src="images/save_as_pdf.jpg" alt="Print to PDF" style="display: block; margin: 5px auto;" /></li>
+              <li><strong>Else:</strong>  E-mail the TA's if you continue to have problems ^_^</li>
+            </ul>
+
+          <h3>LaTeX Tips</h3>
+          <h4>Resources</h4>
+          <p>Thinking of using LaTeX?  Good thinking!  Paul (former HTA) thinks learning LaTeX was one of the best investments he's made as a CS major, and Hideaki (former grad TA) claims "you owe it to yourself as a CS student to learn it."  The current TA staff agrees wholeheartedly. So if it's your first time, welcome!</p>
+
+          <p><a href="http://cs.brown.edu/system/software/latex/doc/lshort.pdf">This book</a> is a great resource and reference, but it is lengthy.  Fear not, you only really need to read a few of its chapters to know 90% of all the work you'll ever do in LaTeX.</p>
+
+          <p>If you are on a SunLab machine, you can run <code>kile</code>, a great editor specially crafted for LaTeX.  From <code>kile</code> you can typeset and preview your document, as well as lookup symbols and insert them dynamically.</p>
+
+          <p>For Mac users, <a href="http://uoregon.edu/~koch/texshop">TeXShop</a> is a great editor for the same reasons:  you can typeset at the press of a button, store macros, and more.</p>
+
+          <p>Finally, we provide a blank <a href="static/files/hwtemplate.tex">template file</a> that takes care of most of the scaffolding required to get a LaTeX document running, from here you simply fill in your answers and typeset them.</p>
+
+          <h4>Specific to CS127</h4>
+          <p>There are a few specific snags to keep track of when doing documents for CS127:</p>
+          <ul>
+            <li><strong>Underscores:</strong> This is probably the biggest snag of writing DB material in LaTeX, as underscores are normally for subscripts.  Like all special characters in LaTeX, you can escape it with a backslash '\'. <br /><br />
+            For example, instead of writing <em>first_name, last_name</em>, you need to write <em>first\_name, last\_name</em>.  If you forget, don't worry, as TeX will throw an error and won't typeset your file.</li>
+
+            <li><strong>Tables:</strong> If you'd like to express data as a table in LaTeX, there are a number of ways to do this, the most simple being the <code>tabular</code> environment.  A great tutorial can be found <a href="http://www.andy-roberts.net/misc/latex/latextutorial4.html">here</a>.  As an example: <br /><br />
+
+            <pre>
+            \begin{tabular}{c | c | c}
+              first\_name &amp; last\_name &amp; age \\ \hline \hline
+              ``Saurya'' &amp; ``Velagapudi'' &amp; 20 \\
+              ``Paul'' &amp; ``Meier'' &amp; 57 \\
+              ``Stan'' &amp; ``Zdonik'' &amp; $\aleph_1$
+            \end{tabular}
+            </pre>
+
+            Produces: <br /><br />
+
+            <img src="images/table_example.jpg" alt="Demonstration of LaTeX tables" style="display:block; margin: 5px auto;" />
+            </li>
+            <li><strong>Common Symbols:</strong>  For relational algebra, these are the symbols you will most commonly use:
+              <table>
+                  <tr style="border-bottom: 1px solid black;"><th>Symbol</th><th>Name</th><th>Symbol</th><th>Name</th></tr>
+                  <tr><td><img src="images/sigma.jpg" alt="sigma" /></td><td>\sigma</td>
+                      <td><img src="images/rho.jpg" alt="rho" /></td><td>\rho</td></tr>
+                  <tr><td><img src="images/pi.jpg" alt="pi" /></td><td>\pi</td>
+                      <td><img src="images/times.jpg" alt="times" /></td><td>\times</td></tr>
+                  <tr><td><img src="images/bowtie.jpg" alt="bowtie" /></td><td>\bowtie</td>
+                      <td><img src="images/div.jpg" alt="div" /></td><td>\div</td></tr>
+                  <tr><td><img src="images/cup.jpg" alt="cup" /></td><td>\cup</td>
+                      <td><img src="images/cap.jpg" alt="cap" /></td><td>\cap</td></tr>
+              </table>
+            </li>
+          </ul>
+        <h3>Word</h3>
+        <p>Since Word is WYSIWYG, you'll likely notice problems as they come along.  That being said, if you've never used Word for math before, you might wonder how to get these symbols.  You can use <a href="http://office.microsoft.com/en-us/word/HP051902471033.aspx">Equation Editor</a>.</p>
+
+        <img src="images/equation_editor.jpg" alt="demonstration of Word's equation editor" style="display:block; margin: 5px auto;" />
+ 
+	</body>
+</html>
