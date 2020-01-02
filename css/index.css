@@ -27,6 +27,15 @@ h6 {
   font-size: 40px;
 }
 
+.navbar {
+  margin-bottom: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
 #nav-bar {
   background-color: #e0e0e0;
   color: black;
@@ -45,8 +54,9 @@ h6 {
   display: flex;
   justify-content: space-evenly;
   margin-top: -5px;
-  padding: 0px 15px 15px 15px;
+  padding: 5px 15px 15px 15px;
   border-bottom: 3px solid #dd6262;
+  background: #ffe9a1;
 }
 
 #subtitle {
@@ -374,5 +384,11 @@ hr {
     display: flex;
     width: 80%;
     margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
   }
 }
