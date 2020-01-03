@@ -45,7 +45,7 @@ h6 {
 #nav-bar {
   background-color: #e0e0e0;
   color: black;
-  border-bottom: 3px solid #dd6262;
+  border-bottom: 2px solid #dd6262;
 }
 
 #nav-text {
@@ -55,12 +55,15 @@ h6 {
   font-size: 18px;
 }
 
+.panel {
+  border-radius: 0;
+}
+
 #nav-text:hover {
-  background-color: rgb(105, 105, 105);
-  color: white;
-  transition: all 0.2s ease-in-out;
+  transform: translateY(-2px);
+  background: none;
+  transition: transform 0.2s ease-in-out;
   font-family: "Arial", sans-serif;
-  font-size: 18px;
 }
 
 #welcome-text {
@@ -69,11 +72,11 @@ h6 {
   justify-content: space-evenly;
   margin-top: -5px;
   padding: 5px 15px 15px 15px;
-  border-bottom: 3px solid #dd6262;
+  border-bottom: 2px solid #dd6262;
   background: #ffe9a1;
 }
 
-#subtitle {
+#alert {
   font-family: "Oswald", sans-serif;
   font-size: 30px;
   display: flex;
@@ -97,25 +100,6 @@ h6 {
 #symbols {
   height: 15px;
   width: auto;
-}
-
-#alert-panel {
-  border-color: #dd6262;
-  border-width: medium;
-}
-
-#alert-panel-top {
-  border-color: #dd6262;
-  border-radius: 0px;
-  background-color: #dd6262;
-  color: white;
-  font-family: "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-#prof-panel {
-  background-color: #eee;
 }
 
 /* #prof-pic {
@@ -219,13 +203,13 @@ hr {
 
 #info-panel {
   border-color: #6699cc;
-  border-width: medium;
+  border-radius: none;
+  border-width: 2px;
   margin: 20px;
 }
 
 #info-panel-top {
   border-color: #6699cc;
-  border-radius: 0px;
   background-color: #e0e0e0;
   color: black;
   font-family: "Arial", sans-serif;
