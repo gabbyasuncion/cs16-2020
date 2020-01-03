@@ -11,6 +11,12 @@ h6 {
   margin: 0 auto;
 }
 
+#active-tab {
+  background: #2d71b5;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+}
+
 #logo-img {
   position: relative;
   padding-right: 0;
@@ -45,6 +51,14 @@ h6 {
 #nav-text {
   background-color: #e0e0e0;
   color: black;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+}
+
+#nav-text:hover {
+  background-color: rgb(105, 105, 105);
+  color: white;
+  transition: all 0.2s ease-in-out;
   font-family: "Arial", sans-serif;
   font-size: 18px;
 }
