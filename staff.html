@@ -12,6 +12,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <link href="css/staff.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
 
 </head>
 
@@ -28,17 +33,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" id="logo-title" href="index.html"><span><img id="logo-img" src = "img/mslogo.png" /></span> mycs16</a>
+                <a class="navbar-brand" id="logo-title" href="index.html"
+                  ><span><img id="logo-img" src="img/cs16-logo.png"/></span>
+                  CS16-LYMPICS</a
+                >
             </div>
             <!-- Navbar links -->
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a id="nav-text" href="index.html">Home</a></li>
+                    <li><a id="nav-text" href="index.html">Home</a></li>
                     <li><a id="nav-text" href="docs.html">Documents</a></li>
                     <li><a id="nav-text" href="lectures.html">Lectures</a></li>
                     <li><a id="nav-text" href="assignments.html">Assignments</a></li>
                     <li><a id="nav-text" href="section.html">Section</a></li>
-                    <li><a id="nav-text" href="staff.html">TA Hours + Staff</a></li>
+                    <li class="active">
+                      <a id="active-tab" href="staff.html">TA Hours + Staff</a>
+                    </li>
                 </ul>
 
             </div>
@@ -56,9 +66,14 @@
 
     <!-- Staff -->
 
-    <!-- Professor -->
+    <!-- Professors -->
     <div class="table-div">
-        <p class="staff-title">Your Professor Space</p>
+        <p class="staff-title">Professor Athletes</p>
+        <a href="staff/seny.html"><div class="staff">
+            <p>doug</p>
+            <div class="staff" id="doug"></div>
+            <p>Doug Woos</p>
+        </div></a>
         <a href="staff/seny.html"><div class="staff">
             <p>seny</p>
             <div class="staff" id="seny"></div>
@@ -68,7 +83,7 @@
 
     <!-- HTAs -->
     <div class="table-div">
-        <p class="staff-title">Your HTA Space</p>
+        <p class="staff-title">HTA Athletes</p>
         <a href="staff/ataveras.html"><div class="staff">
             <p>ataveras</p>
             <div class="staff" id="ataveras"></div>
@@ -93,7 +108,7 @@
 
     <!-- UTAs -->
     <div class="table-div">
-        <p class="staff-title">Your UTA Space</p>
+        <p class="staff-title">TA Athletes</p>
         <a href="staff/abarzinp.html"><div class="staff">
             <p>abarzinp</p>
             <div class="staff" id="abarzinp"></div>
