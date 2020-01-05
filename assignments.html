@@ -11,6 +11,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <link href="css/assignments.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
 
 </head>
 
@@ -27,15 +32,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" id="logo-title" href="index.html"><span><img id="logo-img" src = "img/mslogo.png" /></span> mycs16</a>
+                <a class="navbar-brand" id="logo-title" href="index.html"
+                  ><span><img id="logo-img" src="img/cs16-logo.png"/></span>
+                  CS16-LYMPICS</a
+                >
             </div>
             <!-- Navbar links -->
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a id="nav-text" href="index.html">Home</a></li>
+                    <li><a id="nav-text" href="index.html">Home</a></li>
                     <li><a id="nav-text" href="docs.html">Documents</a></li>
                     <li><a id="nav-text" href="lectures.html">Lectures</a></li>
-                    <li><a id="nav-text" href="assignments.html">Assignments</a></li>
+                    <li class="active">
+                      <a id="active-tab" href="assignments.html">Assignments</a>
+                    </li>
                     <li><a id="nav-text" href="section.html">Section</a></li>
                     <li><a id="nav-text" href="staff.html">TA Hours + Staff</a></li>
                 </ul>
@@ -46,11 +56,16 @@
         <!-- /.container -->
     </nav>
 
+    <!-- Homework Blurb -->
+    <p class="hw-blurb"><span id="blurb-title">ASSIGNMENTS: </span>All homeworks
+       are due at <b>5:00pm</b> on the listed day. All projects are due at <b>
+      11:59pm</b> on the listed day.<br /><br />Optional problems are for your own
+      practice/review, and are not required or worth extra credit.</p>
+
     <!-- Homework Table -->
     <div class="table-div">
         <table>
-            <p class="hw-blurb"><span id="blurb-title">ASSIGNMENTS: </span>All homeworks are due at <b>5:00pm</b> on the listed day. All projects are due at <b>11:59pm</b> on the listed day. </br>Optional problems are for your own practice/review, and are not required or worth extra credit.</p>
-            <caption id="hw-title">Latest Homework</caption>
+            <caption id="hw-title"> Event Exercises</caption>
             <tbody>
                 <tr class="hw-head">
                     <th></th>
@@ -164,7 +179,7 @@
     <!-- Project Table -->
     <div class="table-div">
         <table>
-            <caption id="hw-title">Latest Projects</caption>
+            <caption id="hw-title">Event Challenges</caption>
             <tbody>
                 <tr class="hw-head">
                     <th></th>

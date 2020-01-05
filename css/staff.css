@@ -2,13 +2,13 @@
     font-family: "Arial", sans-serif;
     color: black;
     font-size: 16px;
-    background-color: #F8F0B4;
+    background-color: #ffe9a1;
     width: 100%;
     max-width: 100%;
     font-weight: normal;
     padding: 10px 25px 10px 25px;
     border: 3px solid white;
-    outline: 2px solid #F8E8B4;
+    outline: 2px solid #ffe9a1;
 }
 
 .table-div {
@@ -29,7 +29,7 @@
     font-family: "Arial", sans-serif;
     color: black;
     font-size: 16px;
-    background-color: #F8F0B4;
+    background-color: #ffe9a1;
     width: 100%;
     max-width: 100%;
     font-weight: bold;
@@ -40,583 +40,631 @@
     width: 200px;
     height: 200px;
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 .staff p {
     font-family: "Arial", sans-serif;
-    color: #2D71B5;
+    font-weight: bold;
+    color: #25598e;
     font-size: 16px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 20px;
+}
+
+#login{
+    font-family: "Arial", sans-serif;
+    font-weight: normal;
+    color: #2d71b5;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0px;
 }
 
 #par {
     font-family: "Arial", sans-serif;
-    color: #2D71B5;
+    color: #25598e;
     font-size: 16px;
     text-align: center;
     margin-top: 5px;
 }
 
 #seny {
-    background: url("../staff/staff_img/whitetom.jpg") no-repeat;
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #seny:hover {
-    background: url("../staff/staff_img/blacktom.jpg") no-repeat;
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#ataveras {
-    background: url("../staff/staff_img/ataveras_old.jpg") no-repeat;
+#doug {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#ataveras:hover {
-    background: url("../staff/staff_img/ataveras_new.jpg") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#mmatsui1 {
-    background: url("../staff/staff_img/mmatsui1_old.jpg") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#mmatsui1:hover {
-    background: url("../staff/staff_img/mmatsui1_new.jpg") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#pbaruah {
-    background: url("../staff/staff_img/pbaruah.jpeg") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#pbaruah:hover {
-    background: url("../staff/staff_img/blacktom.jpg") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#szhang57 {
-    background: url("../staff/staff_img/whitetom.jpg") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#szhang57:hover {
-    background: url("../staff/staff_img/blacktom.jpg") no-repeat;
+#doug:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #apu1 {
-    background: url("../staff/staff_img/apu1_old.png") no-repeat;
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #apu1:hover {
-    background: url("../staff/staff_img/apu1_new.png") no-repeat;
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #azhu20 {
-    background: url("../staff/staff_img/azhu20_old.JPG") no-repeat;
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #azhu20:hover {
-    background: url("../staff/staff_img/azhu20_new.jpg") no-repeat;
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#arodri36 {
-    background: url("../staff/staff_img/arodri36_old.jpg") no-repeat;
+#pbaruah {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#arodri36:hover {
-    background: url("../staff/staff_img/arodri36_new.jpg") no-repeat;
+#pbaruah:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#abarzinp {
-    background: url("../staff/staff_img/abarnzip_old.png") no-repeat;
+#szhang57 {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#abarzinp:hover {
-    background: url("../staff/staff_img/abarnzip_new.JPG") no-repeat;
+#szhang57:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#bleaphar {
-    background: url("../staff/staff_img/whitetom.jpg") no-repeat;
+#abajaj1 {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#bleaphar:hover {
-    background: url("../staff/staff_img/blacktom.jpg") no-repeat;
+#abajaj1:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#czamarri {
-    background: url("../staff/staff_img/czamarri_old.jpg") no-repeat;
+#akopplin {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#czamarri:hover {
-    background: url("../staff/staff_img/czamarri_new.JPG") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    transform: rotate(90deg);
-}
-
-#cmeyer5 {
-    background: url("../staff/staff_img/cmeyer5_old.jpeg") no-repeat;
+#akopplin:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#cmeyer5:hover {
-    background: url("../staff/staff_img/cmeyer5_new.jpeg") no-repeat;
+#amiglani {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#dthorpe {
-    background: url("../staff/staff_img/whitetom.jpg") no-repeat;
+#amiglani:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#dthorpe:hover {
-    background: url("../staff/staff_img/blacktom.jpg") no-repeat;
+#bsilverm {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#dmwaisya {
-    background: url("../staff/staff_img/whitetom.jpg") no-repeat;
+#bsilverm:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#dmwaisya:hover {
-    background: url("../staff/staff_img/blacktom.jpg") no-repeat;
+#cvogler {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#emacneal {
-    background: url("../staff/staff_img/emacneal_old.jpg") no-repeat;
+#cvogler:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#emacneal:hover {
-    background: url("../staff/staff_img/emacneal_new.jpeg") no-repeat;
+#cwaweru {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#ekang5 {
-    background: url("../staff/staff_img/whitetom.jpg") no-repeat;
+#cwaweru:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#ekang5:hover {
-    background: url("../staff/staff_img/blacktom.jpg") no-repeat;
+#gasuncio {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#esimshau {
-    background: url("../staff/staff_img/whitetom.jpg") no-repeat;
+#gasuncio:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#esimshau:hover {
-    background: url("../staff/staff_img/blacktom.jpg") no-repeat;
+#ggallant {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#hhaas1 {
-    background: url("../staff/staff_img/whitetom.jpg") no-repeat;
+#ggallant:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#hhaas1:hover {
-    background: url("../staff/staff_img/blacktom.jpg") no-repeat;
+#iilozor {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#iilozor:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#ipinedad {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#ipinedad:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#jdermer {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#jdermer:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #jfischma {
-    background: url("../staff/staff_img/jfischma_old.jpg") no-repeat;
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #jfischma:hover {
-    background: url("../staff/staff_img/jfischma_new.jpeg") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    transform: rotate(90deg);
-}
-
-#jdai6 {
-    background: url("../staff/staff_img/jdai6_old.jpeg") no-repeat;
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#jdai6:hover {
-    background: url("../staff/staff_img/jdai6_new.jpeg") no-repeat;
+#jgonza40 {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#jsiegel2 {
-    background: url("../staff/staff_img/whitetom.jpg") no-repeat;
+#jgonza40:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#jsiegel2:hover {
-    background: url("../staff/staff_img/blacktom.jpg") no-repeat;
+#jma28 {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#jma28:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#jh115 {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#jh115:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#jpark189 {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#jpark189:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#jwhang3 {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#jwhang3:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #klam4 {
-    background: url("../staff/staff_img/klam_old.jpg") no-repeat;
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #klam4:hover {
-    background: url("../staff/staff_img/klam_new.jpg") no-repeat;
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#kka1 {
-    background: url("../staff/staff_img/kka1_old.jpeg") no-repeat;
+#ksang1 {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#kka1:hover {
-    background: url("../staff/staff_img/kka1_new.jpeg") no-repeat;
+#ksang1:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#kfeng2 {
-    background: url("../staff/staff_img/kfeng2_old.jpg") no-repeat;
+#ktan7 {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#kfeng2:hover {
-    background: url("../staff/staff_img/kfeng2_new.jpg") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#kchu {
-    background: url("../staff/staff_img/kchu_old.jpg") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#kchu:hover {
-    background: url("../staff/staff_img/kchu_new.jpg") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#kchai1 {
-    background: url("../staff/staff_img/whitetom.jpg") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#kchai1:hover {
-    background: url("../staff/staff_img/blacktom.jpg") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#lblackst {
-    background: url("../staff/staff_img/lblackst_old.jpeg") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#lblackst:hover {
-    background: url("../staff/staff_img/lblackst_new.jpeg") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#lreyes1 {
-    background: url("../staff/staff_img/lreyes1_old.jpeg") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#lreyes1:hover {
-    background: url("../staff/staff_img/lreyes1_new.jpeg") no-repeat;
+#ktan7:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #litofish {
-    background: url("../staff/staff_img/litofish_old.jpeg") no-repeat;
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #litofish:hover {
-    background: url("../staff/staff_img/litofish_new.jpg") no-repeat;
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#lqu2 {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#lqu2:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#lsim2 {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#lsim2:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#mabela {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#mabela:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#mchu6 {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#mchu6:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #msamplet {
-    background: url("../staff/staff_img/msamplet_old.JPG") no-repeat;
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #msamplet:hover {
-    background: url("../staff/staff_img/msamplet_new.JPG") no-repeat;
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#mgoetz2 {
-    background: url("../staff/staff_img/mgoetz2_old.png") no-repeat;
+#mtrieben {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#mgoetz2:hover {
-    background: url("../staff/staff_img/mgoetz2_new.png") no-repeat;
+#mtrieben:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#mwu27 {
-    background: url("../staff/staff_img/mwu27_old.JPG") no-repeat;
+#oorrellj {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#mwu27:hover {
-    background: url("../staff/staff_img/mwu27_new.jpg") no-repeat;
+#oorrellj:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#mmcdonne {
-    background: url("../staff/staff_img/whitetom.jpg") no-repeat;
+#rkandula {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#mmcdonne:hover {
-    background: url("../staff/staff_img/blacktom.jpg") no-repeat;
+#rkandula:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#ndo3 {
-    background: url("../staff/staff_img/ndo3_old.jpeg") no-repeat;
+#rmalone1 {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#ndo3:hover {
-    background: url("../staff/staff_img/ndo3_new.jpeg") no-repeat;
+#rmalone1:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#omadari1 {
-    background: url("../staff/staff_img/whitetom.jpg") no-repeat;
+#smani {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#omadari1:hover {
-    background: url("../staff/staff_img/blacktom.jpg") no-repeat;
+#smani:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#pkurani {
-    background: url("../staff/staff_img/whitetom.jpg") no-repeat;
+#szhi {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#pkurani:hover {
-    background: url("../staff/staff_img/blacktom.jpg") no-repeat;
+#szhi:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#syip2 {
-    background: url("../staff/staff_img/syip2_old.jpeg") no-repeat;
+#tsundar {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#syip2:hover {
-    background: url("../staff/staff_img/syip2_new.jpeg") no-repeat;
+#tsundar:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#salvara1 {
-    background: url("../staff/staff_img/salvara1_old.jpeg") no-repeat;
+#tjones10 {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#salvara1:hover {
-    background: url("../staff/staff_img/salvara1_new.jpeg") no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    transform: rotate(90deg);
-}
-
-#wauten {
-    background: url("../staff/staff_img/wauten_old.jpg") no-repeat;
+#tjones10:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#wauten:hover {
-    background: url("../staff/staff_img/wauten_new.jpeg") no-repeat;
+#twang58 {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#zweiss3 {
-    background: url("../staff/staff_img/whitetom.jpg") no-repeat;
+#twang58:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#zweiss3:hover {
-    background: url("../staff/staff_img/blacktom.jpg") no-repeat;
+#wbuerger {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#wbuerger:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#yzheng40 {
+    background: url("../staff/staff_img/simone-action.png") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#yzheng40:hover {
+    background: url("../staff/staff_img/simone-biles.jpg") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
