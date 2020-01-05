@@ -1,14 +1,16 @@
 .hw-blurb {
-    font-family: "Arial", sans-serif;
-    color: black;
-    font-size: 16px;
-    background-color: #F8F0B4;
-    width: 100%;
-    max-width: 100%;
-    font-weight: normal;
-    padding: 10px 25px 10px 25px;
-    border: 3px solid white;
-    outline: 2px solid #F8E8B4;
+  font-family: "Arial", sans-serif;
+  color: black;
+  font-size: 16px;
+  background-color: #ffe9a1;
+  margin-top: 25px;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  max-width: 100%;
+  font-weight: normal;
+  padding: 10px 25px 10px 25px;
+  border: 3px solid white;
+  outline: 2px solid #f8e8b4;
 }
 
 #blurb-title {
@@ -20,7 +22,7 @@
 
 #hw-title {
     background-color: #D5E8FB;
-    color: #6699CC;
+    color: black;
     font-family: "Arial", sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -40,10 +42,10 @@
 
 .table-div {
     margin-top: 25px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 25px;
-
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 100px;
+    border: 1px solid #2d71b5;
 }
 
 table {
@@ -75,6 +77,8 @@ td, th {
 tr {
     display: table-row;
     vertical-align: inherit;
+    border-top: 1px solid black;
+    color: black;
 }
 
 .table-even {
