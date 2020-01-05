@@ -11,8 +11,48 @@ h6 {
   margin: 0 auto;
 }
 
+#home-carousel {
+  height: 60vh;
+}
+
+.carousel-caption {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.item {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+
+.arrow-icon {
+  width: 60px;
+}
+
+.carousel-control a:hover {
+  cursor: pointer;
+}
+
+.arrow-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: left;
+  margin: auto;
+}
+
 #active-tab {
-  background: #2d71b5;
+  background: none;
+  color: black;
+  font-weight: bold;
   font-family: "Arial", sans-serif;
   font-size: 18px;
 }
@@ -138,12 +178,12 @@ h6 {
   align-items: center;
 } */
 
-#staff-pic {
+#carousel-pic {
   /* display: flex;
   width: 60%;
 	height: auto; */
   display: flex;
-  width: 50%;
+  width: 100%;
   margin: auto;
   align-self: left;
   justify-content: left;
