@@ -1,0 +1,84 @@
+.box{
+  margin-top: 25px;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-bottom: 60px;
+}
+
+#names{
+    color: #25598e;
+    font-size: 27px;
+}
+
+#about{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#bio{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#teams-panel-top {
+    border-color: #6699cc;
+    background-color: #fbb131;
+    color: black;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.team-pic{
+    width: 330px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5%;
+    border-radius: 10px;
+}
+#team1-pic {
+  float: left;
+  width: 17%;
+  height: auto;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+#teams-txt {
+  position: relative;
+  display: block;
+  float: left;
+  margin-left: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: black;
+  font-size: 20px;
+}
+
+
+#back-button-font {
+  font-family: "Arial", sans-serif;
+  font-style: bold;
+  color: white;
+}
+
+#back-button {
+  font-family: "Arial", sans-serif;
+  font-style: bold;
+  background-color: #2d71b5;
+  font-size: 17px;
+  border-radius: 5px;
+  float: right;
+  margin-right: 2%;
+}
+
+#text-box{
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-bottom: 60px;
+}
