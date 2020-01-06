@@ -423,9 +423,27 @@ hr {
     width: 80%;
     margin-bottom: 10px;
   }
+
+  #home-carousel {
+    height: 40vh;
+  }
+
+  .item {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  #logo-title {
+    position: relative;
+    top: -5px;
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+  }
+
   #alert {
     font-size: 20px;
   }
@@ -436,5 +454,25 @@ hr {
 
   .container {
     flex-direction: column;
+  }
+
+  #home-carousel {
+    height: 25vh;
+  }
+
+  .item {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel-caption {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .carousel-caption p {
+    font-size: 15px;
+    font-weight: normal;
   }
 }
