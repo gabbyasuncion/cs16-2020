@@ -44,7 +44,7 @@
     margin-top: 25px;
     margin-left: 8vw;
     margin-right: 8vw;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     border: 1px solid #2d71b5;
 }
 
@@ -99,4 +99,362 @@ td {
 @media only screen and (max-width: 990px), (max-device-width: 1024px) and (min-device-width: 768px)
 table, thead, tbody, th, td, tr {
     display: block;
+}
+
+.teams-div {
+    margin-top: 25px;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 60px;
+}
+
+.teams-title {
+    font-family: "Arial", sans-serif;
+    color: black;
+    font-size: 20px;
+    background-color: #D5E8FB;
+    width: 100%;
+    max-width: 100%;
+    font-weight: bold;
+    padding: 8px 25px 8px 25px;
+    border: 1px solid #2d71b5;
+
+}
+
+.teams {
+    width: 230px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 5%;
+    margin-top: 1.5%;
+}
+
+.teams-label {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    color: #25598e;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#team1 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team1:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team2 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team2:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team3 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team3:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team4 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-position: left top;
+    background-repeat: repeat;
+    border-radius: 10px;
+}
+
+#team4:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-position: left top;
+    background-repeat: repeat;
+    border-radius: 10px;
+}
+
+#team5 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team5:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team6 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team6:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team7 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team7:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team8 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team8:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team9 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team9:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team10 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team10:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team11 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team11:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team12 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team12:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team13 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team13:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team14 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team14:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team15 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team15:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team16 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team16:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team17 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team17:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team18 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team18:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team19 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team19:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team20 {
+    background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
+}
+
+#team20:hover {
+    background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 10px;
 }
