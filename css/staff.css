@@ -29,12 +29,13 @@
 .staff-title {
     font-family: "Arial", sans-serif;
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     background-color: #ffe9a1;
     width: 100%;
     max-width: 100%;
     font-weight: bold;
     padding: 5px 25px 5px 25px;
+    border: 1px solid #dd6262;
 }
 
 .staff {
@@ -51,7 +52,6 @@
     color: #25598e;
     font-size: 16px;
     text-align: center;
-    margin-top: 0px;
 }
 
 #login{
@@ -60,7 +60,6 @@
     color: #2d71b5;
     font-size: 16px;
     text-align: center;
-    margin-top: 0px;
 }
 
 #par {
