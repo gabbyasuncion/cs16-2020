@@ -1,758 +1,763 @@
 .hours-blurb {
-    font-family: "Arial", sans-serif;
-    color: black;
-    font-size: 16px;
-    background-color: #ffe9a1;
-    width: 100%;
-    max-width: 100%;
-    font-weight: normal;
-    padding: 10px 25px 10px 25px;
-    border: 3px solid white;
-    outline: 2px solid #ffe9a1;
-    margin-bottom: 40px;
+  font-family: "Arial", sans-serif;
+  color: black;
+  font-size: 16px;
+  background-color: #ffe9a1;
+  width: 100%;
+  max-width: 100%;
+  font-weight: normal;
+  padding: 10px 25px 10px 25px;
+  border: 3px solid white;
+  outline: 2px solid #ffe9a1;
+  margin-bottom: 40px;
 }
 
 .table-div {
-    margin-top: 25px;
-    margin-left: 6vw;
-    margin-right: 6vw;
-    margin-bottom: 40px;
+  margin-top: 25px;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  margin-bottom: 40px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
 
 #blurb-title {
-    font-family: "Arial", sans-serif;
-    color: #EA2222;
-    font-size: 16px;
-    font-weight: bold;
+  font-family: "Arial", sans-serif;
+  color: #ea2222;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .staff-title {
-    font-family: "Arial", sans-serif;
-    color: black;
-    font-size: 20px;
-    background-color: #ffe9a1;
-    width: 100%;
-    max-width: 100%;
-    font-weight: bold;
-    padding: 5px 25px 5px 25px;
-    border: 1px solid #dd6262;
+  font-family: "Arial", sans-serif;
+  color: black;
+  font-size: 20px;
+  background-color: #ffe9a1;
+  width: 100%;
+  max-width: 100%;
+  font-weight: bold;
+  padding: 5px 25px 5px 25px;
+  border: 1px solid #dd6262;
 }
 
 .staff {
-    width: 230px;
-    height: 200px;
-    display: inline-block;
-    margin-right: 5%;
-    margin-top: 1.5%;
+  width: 230px;
+  height: 200px;
+  display: inline-block;
+  margin-right: 5%;
+  margin-top: 1.5%;
 }
 
 .staff p {
-    font-family: "Arial", sans-serif;
-    font-weight: bold;
-    color: #25598e;
-    font-size: 16px;
-    text-align: center;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  color: #25598e;
+  font-size: 16px;
+  text-align: center;
 }
 
-#login{
-    font-family: "Arial", sans-serif;
-    font-weight: normal;
-    color: #2d71b5;
-    font-size: 16px;
-    text-align: center;
+#login {
+  font-family: "Arial", sans-serif;
+  font-weight: normal;
+  color: #2d71b5;
+  font-size: 16px;
+  text-align: center;
 }
 
 #par {
-    font-family: "Arial", sans-serif;
-    color: #25598e;
-    font-size: 16px;
-    text-align: center;
-    margin-top: 5px;
+  font-family: "Arial", sans-serif;
+  color: #25598e;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 5px;
 }
 
 #seny {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #seny:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #doug {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #doug:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #apu1 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #apu1:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #azhu20 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #azhu20:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #pbaruah {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #pbaruah:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #szhang57 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #szhang57:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #abajaj1 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #abajaj1:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #akopplin {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #akopplin:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #amiglani {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #amiglani:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #bsilverm {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #bsilverm:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #cvogler {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #cvogler:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #cwaweru {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #cwaweru:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #gasuncio {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #gasuncio:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #ggallant {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #ggallant:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #iilozor {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #iilozor:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #ipinedad {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #ipinedad:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #jdermer {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #jdermer:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #jfischma {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #jfischma:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #jgonza40 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #jgonza40:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #jma28 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #jma28:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #jh115 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #jh115:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #jpark189 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #jpark189:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #jwhang3 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #jwhang3:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #klam4 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #klam4:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #ksang1 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #ksang1:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #ktan7 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #ktan7:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #litofish {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #litofish:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #lqu2 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #lqu2:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #lsim2 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #lsim2:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #mabela {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #mabela:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #mchu6 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #mchu6:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #msamplet {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #msamplet:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #mtrieben {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #mtrieben:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #oorrellj {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #oorrellj:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #rkandula {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #rkandula:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #rmalone1 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #rmalone1:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #smani {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #smani:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #szhi {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #szhi:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #tsundar {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #tsundar:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #tjones10 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #tjones10:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #twang58 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #twang58:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #wbuerger {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #wbuerger:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 #yzheng40 {
-    background: url("../staff/staff_img/simone-action.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 #yzheng40:hover {
-    background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
