@@ -35,7 +35,7 @@
     max-width: 100%;
     font-weight: bold;
     padding: 5px 25px 5px 25px;
-    border: 1px solid #dd6262;
+    border: 1px solid #25598e;
 }
 
 .staff {
@@ -43,7 +43,7 @@
     height: 200px;
     display: inline-block;
     margin-right: 5%;
-    margin-top: 1.5%;
+    margin-top: 1.5%
 }
 
 .staff p {
@@ -54,20 +54,39 @@
     text-align: center;
 }
 
+.description{
+    width: 231px;
+    display: inline-block;
+    margin-right: 5%;
+    border: 1px solid #dd6262;
+    border-radius: 6px;
+    margin-bottom: 2%;
+
+}
 #login{
     font-family: "Arial", sans-serif;
     font-weight: normal;
     color: #2d71b5;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
 }
 
-#par {
+#name {
     font-family: "Arial", sans-serif;
     color: #25598e;
-    font-size: 16px;
+    font-size: 17px;
     text-align: center;
     margin-top: 5px;
+}
+
+#comp-img{
+    width: auto;
+    height: 18px;
+    padding-left: 30%;
+    float: left;
+
+
 }
 
 #seny {
@@ -75,7 +94,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 #seny:hover {
@@ -83,7 +102,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 #doug {
@@ -91,7 +110,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 #doug:hover {
@@ -99,7 +118,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 #apu1 {
@@ -107,7 +126,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #apu1:hover {
@@ -115,7 +134,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #azhu20 {
@@ -123,7 +142,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #azhu20:hover {
@@ -131,7 +150,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #pbaruah {
@@ -139,7 +158,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #pbaruah:hover {
@@ -147,7 +166,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #szhang57 {
@@ -155,7 +174,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #szhang57:hover {
@@ -163,7 +182,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #abajaj1 {
@@ -171,7 +190,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #abajaj1:hover {
@@ -179,7 +198,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #akopplin {
@@ -187,7 +206,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #akopplin:hover {
@@ -195,7 +214,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #amiglani {
@@ -203,7 +222,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #amiglani:hover {
@@ -211,7 +230,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #bsilverm {
@@ -219,7 +238,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #bsilverm:hover {
@@ -227,7 +246,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #cvogler {
@@ -235,7 +254,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #cvogler:hover {
@@ -243,7 +262,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #cwaweru {
@@ -251,7 +270,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #cwaweru:hover {
@@ -259,7 +278,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #gasuncio {
@@ -267,7 +286,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #gasuncio:hover {
@@ -275,7 +294,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #ggallant {
@@ -283,7 +302,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #ggallant:hover {
@@ -291,7 +310,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #iilozor {
@@ -299,7 +318,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #iilozor:hover {
@@ -307,7 +326,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #ipinedad {
@@ -315,7 +334,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #ipinedad:hover {
@@ -323,7 +342,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #jdermer {
@@ -331,7 +350,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #jdermer:hover {
@@ -339,7 +358,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #jfischma {
@@ -347,7 +366,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #jfischma:hover {
@@ -355,7 +374,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #jgonza40 {
@@ -363,7 +382,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #jgonza40:hover {
@@ -371,7 +390,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #jma28 {
@@ -379,7 +398,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #jma28:hover {
@@ -387,7 +406,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #jh115 {
@@ -395,7 +414,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #jh115:hover {
@@ -403,7 +422,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #jpark189 {
@@ -411,7 +430,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #jpark189:hover {
@@ -419,7 +438,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #jwhang3 {
@@ -427,7 +446,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #jwhang3:hover {
@@ -435,7 +454,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #klam4 {
@@ -443,7 +462,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #klam4:hover {
@@ -451,7 +470,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #ksang1 {
@@ -459,7 +478,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #ksang1:hover {
@@ -467,7 +486,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #ktan7 {
@@ -475,7 +494,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #ktan7:hover {
@@ -483,7 +502,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #litofish {
@@ -491,7 +510,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #litofish:hover {
@@ -499,7 +518,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #lqu2 {
@@ -507,7 +526,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #lqu2:hover {
@@ -515,7 +534,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #lsim2 {
@@ -523,7 +542,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #lsim2:hover {
@@ -531,7 +550,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #mabela {
@@ -539,7 +558,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #mabela:hover {
@@ -547,7 +566,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #mchu6 {
@@ -555,7 +574,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #mchu6:hover {
@@ -563,7 +582,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #msamplet {
@@ -571,7 +590,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #msamplet:hover {
@@ -579,7 +598,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #mtrieben {
@@ -587,7 +606,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #mtrieben:hover {
@@ -595,7 +614,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #oorrellj {
@@ -603,7 +622,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #oorrellj:hover {
@@ -611,7 +630,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #rkandula {
@@ -619,7 +638,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #rkandula:hover {
@@ -627,7 +646,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #rmalone1 {
@@ -635,7 +654,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #rmalone1:hover {
@@ -643,7 +662,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #smani {
@@ -651,7 +670,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #smani:hover {
@@ -659,7 +678,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #szhi {
@@ -667,7 +686,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #szhi:hover {
@@ -675,7 +694,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #tsundar {
@@ -683,7 +702,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #tsundar:hover {
@@ -691,7 +710,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #tjones10 {
@@ -699,7 +718,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #tjones10:hover {
@@ -707,7 +726,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #twang58 {
@@ -715,7 +734,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #twang58:hover {
@@ -723,7 +742,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #wbuerger {
@@ -731,7 +750,7 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #wbuerger:hover {
@@ -739,14 +758,14 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 #yzheng40 {
     background: url("../staff/staff_img/simone-action.png") no-repeat;
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #yzheng40:hover {
@@ -754,5 +773,5 @@
     background-size: contain;
     background-position: left top;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 6px;
 }
