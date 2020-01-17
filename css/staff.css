@@ -17,11 +17,7 @@
   margin-left: 6vw;
   margin-right: 6vw;
   margin-bottom: 40px;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 #blurb-title {
@@ -41,6 +37,7 @@
   font-weight: bold;
   padding: 5px 25px 5px 25px;
   border: 1px solid #25598e;
+  text-align: left;
 }
 
 .staff {
@@ -66,7 +63,14 @@
   border: 1px solid #dd6262;
   border-radius: 6px;
   margin-bottom: 2%;
+  text-align: center;
 }
+
+.login-container {
+  justify-content: center;
+  display: flex;
+}
+
 #login {
   font-family: "Arial", sans-serif;
   font-weight: normal;
@@ -87,7 +91,7 @@
 #comp-img {
   width: auto;
   height: 18px;
-  padding-left: 30%;
+  /* padding-right: 10px; */
   float: left;
 }
 
