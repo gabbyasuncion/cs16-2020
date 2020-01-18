@@ -1,5 +1,5 @@
 .section-blurb {
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   color: black;
   font-size: 16px;
   background-color: #ffe9a1;
@@ -16,8 +16,8 @@
 #section-title {
   background-color: #d5e8fb;
   color: black;
-  font-family: "Arial", sans-serif;
-  font-weight: bold;
+  font-family: 'Raleway';
+  font-weight: bolder;
   font-size: 20px;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -25,14 +25,14 @@
 }
 
 #blurb-title {
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   color: #ea2222;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .section-head {
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   color: black;
   font-size: 18px;
   background-color: white;
@@ -60,8 +60,8 @@ table {
 
 tbody {
   color: black;
-  font-family: "Arial", sans-serif;
-  font-weight: normal;
+  font-family: 'Raleway';
+  font-weight: bolder;
   font-size: 15px;
   text-align: left;
 }
@@ -116,7 +116,7 @@ tr {
 }
 
 .teams-title {
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   color: black;
   font-size: 20px;
   background-color: #d5e8fb;
@@ -137,7 +137,7 @@ tr {
 }
 
 .teams-label {
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   font-weight: bold;
   color: #25598e;
   font-size: 16px;

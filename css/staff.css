@@ -1,5 +1,5 @@
 .hours-blurb {
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   color: black;
   font-size: 16px;
   background-color: #ffe9a1;
@@ -22,14 +22,14 @@
 }
 
 #blurb-title {
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   color: #ea2222;
   font-size: 16px;
   font-weight: bold;
 }
 
 .staff-title {
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   color: black;
   font-size: 20px;
   background-color: #ffe9a1;
@@ -50,7 +50,7 @@
 }
 
 .staff p {
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   font-weight: bold;
   color: #25598e;
   font-size: 16px;
@@ -73,7 +73,7 @@
 }
 
 #login {
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   font-weight: normal;
   color: #2d71b5;
   font-size: 16px;
@@ -82,7 +82,7 @@
 }
 
 #name {
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   color: #25598e;
   font-size: 17px;
   text-align: center;
@@ -384,6 +384,22 @@
   border-radius: 6px;
 }
 
+#jwhang3 {
+  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+#jwhang3:hover {
+  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
 #jgonza40 {
   background: url("../staff/staff_img/simone-action.png") no-repeat;
   background-size: contain;
@@ -441,22 +457,6 @@
 }
 
 #jpark189:hover {
-  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
-  background-size: contain;
-  background-position: left top;
-  background-repeat: no-repeat;
-  border-radius: 6px;
-}
-
-#jwhang3 {
-  background: url("../staff/staff_img/simone-action.png") no-repeat;
-  background-size: contain;
-  background-position: left top;
-  background-repeat: no-repeat;
-  border-radius: 6px;
-}
-
-#jwhang3:hover {
   background: url("../staff/staff_img/simone-portrait.png") no-repeat;
   background-size: contain;
   background-position: left top;
