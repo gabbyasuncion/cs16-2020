@@ -82,3 +82,10 @@
   margin-right: 8vw;
   margin-bottom: 60px;
 }
+
+.teams-container{
+  width: 230px;
+  height: 200px;
+  display: inline-block;
+  margin: 20px 20px 0px;
+}
