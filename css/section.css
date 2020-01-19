@@ -61,13 +61,12 @@ table {
 tbody {
   color: black;
   font-family: "Raleway";
-  font-weight: bolder;
-  font-size: 15px;
+  font-weight: normal;
+  font-size: 16px;
   text-align: left;
 }
 
-td,
-th {
+td, th {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 25px;
@@ -145,7 +144,7 @@ tr {
   font-family: "Raleway";
   font-weight: bold;
   color: #25598e;
-  font-size: 16px;
+  font-size: 17px;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 20px;
