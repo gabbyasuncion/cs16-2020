@@ -1,5 +1,5 @@
 .hw-blurb {
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   color: black;
   font-size: 16px;
   background-color: #ffe9a1;
@@ -14,17 +14,17 @@
 }
 
 #blurb-title {
-    font-family: "Arial", sans-serif;
+    font-family: 'Raleway';
     color: #EA2222;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 17px;
+    font-weight: bolder;
 }
 
 #hw-title {
     background-color: #D5E8FB;
     color: black;
-    font-family: "Arial", sans-serif;
-    font-weight: bold;
+    font-family: 'Raleway';
+    font-weight: bolder;
     font-size: 20px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -32,7 +32,7 @@
 }
 
 .hw-head {
-    font-family: "Arial", sans-serif;
+    font-family: 'Raleway';
     color: black;
     font-size: 18px;
     background-color: white;
@@ -54,15 +54,15 @@ table {
     display: table;
     width: 100%;
     max-width: 100%;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 15px;
 }
 
 tbody {
     color: black;
-    font-family: "Arial", sans-serif;
+    font-family: 'Raleway';
     font-weight: normal;
-    font-size: 15px;
+    font-size: 16px;
     text-align: left;
 }
 
