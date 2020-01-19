@@ -118,11 +118,11 @@ tr {
 .teams-title {
   font-family: "Raleway";
   color: black;
-  font-size: 20px;
+  font-size: 21px;
   background-color: #d5e8fb;
   width: 100%;
   max-width: 100%;
-  font-weight: bold;
+  font-weight: bolder;
   padding: 8px 25px 8px 25px;
   border: 1px solid #2d71b5;
   text-align: left;
@@ -156,7 +156,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team1:hover {
@@ -164,7 +164,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team2 {
@@ -172,7 +172,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team2:hover {
@@ -180,7 +180,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team3 {
@@ -188,7 +188,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team3:hover {
@@ -196,7 +196,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team4 {
@@ -204,7 +204,7 @@ tr {
   background-size: contain;
   background-position: left top;
   background-repeat: repeat;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team4:hover {
@@ -212,7 +212,7 @@ tr {
   background-size: contain;
   background-position: left top;
   background-repeat: repeat;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team5 {
@@ -220,7 +220,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team5:hover {
@@ -228,7 +228,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team6 {
@@ -236,7 +236,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team6:hover {
@@ -244,7 +244,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team7 {
@@ -252,7 +252,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team7:hover {
@@ -260,7 +260,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team8 {
@@ -268,7 +268,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team8:hover {
@@ -276,7 +276,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team9 {
@@ -284,7 +284,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team9:hover {
@@ -292,7 +292,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team10 {
@@ -300,7 +300,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team10:hover {
@@ -308,7 +308,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team11 {
@@ -316,7 +316,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team11:hover {
@@ -324,7 +324,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team12 {
@@ -332,7 +332,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team12:hover {
@@ -340,7 +340,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team13 {
@@ -348,7 +348,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team13:hover {
@@ -356,7 +356,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team14 {
@@ -364,7 +364,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team14:hover {
@@ -372,7 +372,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team15 {
@@ -380,7 +380,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team15:hover {
@@ -388,7 +388,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team16 {
@@ -396,7 +396,7 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #team16:hover {
@@ -404,69 +404,5 @@ tr {
   background-size: contain;
   background-repeat: repeat;
   background-position: left top;
-  border-radius: 10px;
-}
-
-#team17 {
-  background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
-  background-repeat: repeat;
-  background-position: left top;
-  border-radius: 10px;
-}
-
-#team17:hover {
-  background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
-  background-repeat: repeat;
-  background-position: left top;
-  border-radius: 10px;
-}
-
-#team18 {
-  background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
-  background-repeat: repeat;
-  background-position: left top;
-  border-radius: 10px;
-}
-
-#team18:hover {
-  background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
-  background-repeat: repeat;
-  background-position: left top;
-  border-radius: 10px;
-}
-
-#team19 {
-  background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
-  background-repeat: repeat;
-  background-position: left top;
-  border-radius: 10px;
-}
-
-#team19:hover {
-  background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
-  background-repeat: repeat;
-  background-position: left top;
-  border-radius: 10px;
-}
-
-#team20 {
-  background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
-  background-repeat: repeat;
-  background-position: left top;
-  border-radius: 10px;
-}
-
-#team20:hover {
-  background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
-  background-repeat: repeat;
-  background-position: left top;
-  border-radius: 10px;
+  border-radius: 6px;
 }
