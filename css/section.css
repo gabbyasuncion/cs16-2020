@@ -48,6 +48,13 @@
     border: 1px solid #2d71b5;
 }
 
+.calendar-div {
+    margin-top: 25px;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 60px;
+}
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -153,7 +160,7 @@ tr {
 
 #team1 {
   background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -161,7 +168,7 @@ tr {
 
 #team1:hover {
   background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -169,7 +176,7 @@ tr {
 
 #team2 {
   background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -177,7 +184,7 @@ tr {
 
 #team2:hover {
   background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -185,7 +192,7 @@ tr {
 
 #team3 {
   background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -193,7 +200,7 @@ tr {
 
 #team3:hover {
   background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -201,7 +208,7 @@ tr {
 
 #team4 {
   background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: left top;
   background-repeat: repeat;
   border-radius: 6px;
@@ -209,7 +216,7 @@ tr {
 
 #team4:hover {
   background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: left top;
   background-repeat: repeat;
   border-radius: 6px;
@@ -217,7 +224,7 @@ tr {
 
 #team5 {
   background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -225,7 +232,7 @@ tr {
 
 #team5:hover {
   background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -233,7 +240,7 @@ tr {
 
 #team6 {
   background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -241,7 +248,7 @@ tr {
 
 #team6:hover {
   background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -249,7 +256,7 @@ tr {
 
 #team7 {
   background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -257,7 +264,7 @@ tr {
 
 #team7:hover {
   background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -265,7 +272,7 @@ tr {
 
 #team8 {
   background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -273,7 +280,7 @@ tr {
 
 #team8:hover {
   background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -281,7 +288,7 @@ tr {
 
 #team9 {
   background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -289,7 +296,7 @@ tr {
 
 #team9:hover {
   background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -297,7 +304,7 @@ tr {
 
 #team10 {
   background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -305,7 +312,7 @@ tr {
 
 #team10:hover {
   background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -313,7 +320,7 @@ tr {
 
 #team11 {
   background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -321,7 +328,7 @@ tr {
 
 #team11:hover {
   background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -329,7 +336,7 @@ tr {
 
 #team12 {
   background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -337,7 +344,7 @@ tr {
 
 #team12:hover {
   background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -345,7 +352,7 @@ tr {
 
 #team13 {
   background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -353,7 +360,7 @@ tr {
 
 #team13:hover {
   background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -361,7 +368,7 @@ tr {
 
 #team14 {
   background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -369,7 +376,7 @@ tr {
 
 #team14:hover {
   background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -377,7 +384,7 @@ tr {
 
 #team15 {
   background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -385,7 +392,7 @@ tr {
 
 #team15:hover {
   background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -393,7 +400,7 @@ tr {
 
 #team16 {
   background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
@@ -401,7 +408,7 @@ tr {
 
 #team16:hover {
   background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   background-position: left top;
   border-radius: 6px;
