@@ -1,7 +1,7 @@
 #doc-title {
   background-color: #d5e8fb;
   color: black;
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   font-weight: bold;
   font-size: 20px;
   padding-top: 8px;
@@ -10,7 +10,7 @@
 }
 
 .doc-head {
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   color: black;
   font-size: 18px;
   background-color: white;
@@ -38,9 +38,9 @@ table {
 
 tbody {
   color: black;
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   font-weight: normal;
-  font-size: 15px;
+  font-size: 16px;
   text-align: left;
 }
 
