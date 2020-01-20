@@ -41,52 +41,52 @@
 }
 
 .table-div {
-    margin-top: 25px;
-    margin-left: 8vw;
-    margin-right: 8vw;
-    margin-bottom: 60px;
-    border: 1px solid #2d71b5;
+  margin-top: 25px;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-bottom: 60px;
+  border: 1px solid #2d71b5;
 }
 
 .calendar-div {
-    margin-top: 25px;
-    margin-left: 8vw;
-    margin-right: 8vw;
-    margin-bottom: 60px;
+  margin-top: 25px;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-bottom: 60px;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    display: table;
-    width: 100%;
-    max-width: 100%;
-    font-weight: bold;
-    font-size: 15px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 tbody {
-    color: black;
-    font-family: 'Raleway';
-    font-weight: normal;
-    font-size: 16px;
-    text-align: left;
+  color: black;
+  font-family: "Raleway";
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
 }
 
-td, th {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 25px;
-    vertical-align: inherit;
-    display: table-cell;
+td,
+th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 25px;
+  vertical-align: inherit;
+  display: table-cell;
 }
-
 
 tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-top: 1px solid black;
-    color: black;
+  display: table-row;
+  vertical-align: inherit;
+  border-top: 1px solid black;
+  color: black;
 }
 
 .table-even {
@@ -271,7 +271,7 @@ tr {
 }
 
 #team8 {
-  background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+  background: url("../teams/teams_img/ambika-wambui.jpeg") no-repeat;
   background-size: cover;
   background-repeat: repeat;
   background-position: left top;
@@ -335,7 +335,7 @@ tr {
 }
 
 #team12 {
-  background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+  background: url("../teams/teams_img/gabby-jason.jpeg") no-repeat;
   background-size: cover;
   background-repeat: repeat;
   background-position: left top;
