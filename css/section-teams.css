@@ -9,7 +9,9 @@
     color: #25598e;
     font-size: 27px;
 }
-
+h4{
+  font-weight: 700;
+}
 #about{
     color: black;
     font-size: 20px;
