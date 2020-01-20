@@ -294,8 +294,8 @@
 }
 
 #gasuncio {
-  background: url("../staff/staff_img/simone-action.png") no-repeat;
-  background-size: contain;
+  background: url("../staff/staff_img/gabby-athlete.jpg") no-repeat;
+  background-size: cover;
   background-position: left top;
   background-repeat: no-repeat;
   border-radius: 6px;
