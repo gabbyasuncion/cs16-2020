@@ -94,6 +94,11 @@
   margin-top: 5px;
 }
 
+#name-meme {
+  text-decoration: none;
+  color: #25598e;
+}
+
 #comp-img {
   width: auto;
   height: 18px;
