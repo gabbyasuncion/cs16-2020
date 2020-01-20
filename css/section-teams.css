@@ -62,22 +62,6 @@
 }
 
 
-#back-button-font {
-  font-family: 'Raleway';
-  font-style: bold;
-  color: white;
-}
-
-#back-button {
-  font-family: 'Raleway';
-  font-style: bold;
-  background-color: #2d71b5;
-  font-size: 17px;
-  border-radius: 5px;
-  float: right;
-  margin-right: 2%;
-}
-
 #text-box{
   margin-left: 8vw;
   margin-right: 8vw;
