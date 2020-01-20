@@ -48,6 +48,13 @@
     border: 1px solid #2d71b5;
 }
 
+.calendar-div {
+    margin-top: 25px;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 60px;
+}
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
