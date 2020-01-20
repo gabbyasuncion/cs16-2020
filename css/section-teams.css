@@ -26,7 +26,7 @@
     border-color: #6699cc;
     background-color: #fbb131;
     color: black;
-    font-family: "Arial", sans-serif;
+    font-family: 'Raleway';
     font-weight: bold;
     font-size: 20px;
 }
@@ -58,17 +58,18 @@
   margin-bottom: auto;
   color: black;
   font-size: 20px;
+  font-family: 'Raleway';
 }
 
 
 #back-button-font {
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   font-style: bold;
   color: white;
 }
 
 #back-button {
-  font-family: "Arial", sans-serif;
+  font-family: 'Raleway';
   font-style: bold;
   background-color: #2d71b5;
   font-size: 17px;
