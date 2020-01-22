@@ -158,7 +158,7 @@ tr {
 }
 
 #team2 {
-  background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+  background: url("../teams/teams_img/madison-martin-athlete.png") no-repeat;
   background-size: cover;
   background-repeat: repeat;
   background-position: left top;
@@ -174,7 +174,7 @@ tr {
 }
 
 #team3 {
-  background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+  background: url("../teams/teams_img/kendrick-holly-athlete-1.png") no-repeat;
   background-size: cover;
   background-repeat: repeat;
   background-position: left top;
@@ -182,7 +182,7 @@ tr {
 }
 
 #team3:hover {
-  background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+  background: url("../teams/teams_img/kendrick-holly.png") no-repeat;
   background-size: cover;
   background-repeat: repeat;
   background-position: left top;
@@ -198,7 +198,7 @@ tr {
 }
 
 #team4:hover {
-  background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+  background: url("../teams/teams_img/jordy-ravi-athlete.jpg") no-repeat;
   background-size: cover;
   background-position: left top;
   background-repeat: repeat;
@@ -334,7 +334,7 @@ tr {
 }
 
 #team13 {
-  background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+  background: url("../teams/teams_img/cece-jack-athlete.png") no-repeat;
   background-size: cover;
   background-repeat: repeat;
   background-position: left top;
@@ -342,7 +342,7 @@ tr {
 }
 
 #team13:hover {
-  background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+  background: url("../teams/teams_img/cece-jack.png") no-repeat;
   background-size: cover;
   background-repeat: repeat;
   background-position: left top;
