@@ -1,46 +1,46 @@
-.box {
+.box{
   margin-top: 25px;
   margin-left: 8vw;
   margin-right: 8vw;
   margin-bottom: 60px;
 }
 
-#names {
-  color: #25598e;
-  font-size: 27px;
+#names{
+    color: #25598e;
+    font-size: 27px;
 }
-h4 {
+h4{
   font-weight: 700;
 }
-#about {
-  color: black;
-  font-size: 20px;
-  font-weight: 700;
+#about{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
 }
 
-#bio {
-  color: black;
-  font-size: 18px;
-  font-weight: 400;
+#bio{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 #teams-panel-top {
-  border-color: #6699cc;
-  background-color: #fbb131;
-  color: black;
-  font-family: "Raleway";
-  font-weight: bold;
-  font-size: 20px;
+    border-color: #6699cc;
+    background-color: #fbb131;
+    color: black;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.team-pic {
-  width: 330px;
-  height: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1.5%;
-  border-radius: 10px;
+.team-pic{
+    width: 330px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5%;
+    border-radius: 10px;
 }
 #team1-pic {
   float: left;
@@ -60,29 +60,30 @@ h4 {
   margin-bottom: auto;
   color: black;
   font-size: 20px;
-  font-family: "Raleway";
+  font-family: 'Raleway';
 }
 
-#text-box {
+
+#text-box{
   margin-left: 8vw;
   margin-right: 8vw;
   margin-bottom: 60px;
 }
 
-.teams-container {
+.teams-container{
   width: 230px;
   height: 200px;
   display: inline-block;
   margin: 20px 20px 0px;
 }
 
-#jason-gabby-haiku {
+#jason-gabby-haiku{
   position: relative;
   display: block;
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
   color: black;
-  font-family: "Raleway";
-  font-size: 18px;
+  font-size: 20px;
+  font-family: 'Raleway';
 }

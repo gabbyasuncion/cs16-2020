@@ -366,7 +366,7 @@ tr {
 }
 
 #team15 {
-  background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+  background: url("../teams/teams_img/amy-ian-athlete.jpg") no-repeat;
   background-size: cover;
   background-repeat: repeat;
   background-position: left top;
@@ -374,7 +374,7 @@ tr {
 }
 
 #team15:hover {
-  background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+  background: url("../teams/teams_img/amy-ian-athlete.jpg") no-repeat;
   background-size: cover;
   background-repeat: repeat;
   background-position: left top;
