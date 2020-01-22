@@ -63,6 +63,25 @@
   text-align: center;
 }
 
+.prof-description {
+  width: 231px;
+  height: 150px;
+  display: inline-block;
+  border: 1px solid #dd6262;
+  border-radius: 6px;
+  margin-bottom: 2%;
+  text-align: center;
+  padding: 0px 10px;
+}
+
+.prof-container {
+  width: 230px;
+  height: 370px;
+  display: inline-block;
+  margin: 30px 20px 0px;
+  vertical-align: top;
+}
+
 .description {
   width: 231px;
   height: 340px;
@@ -589,7 +608,7 @@
 }
 
 #mchu6 {
-  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background: url("../staff/staff_img/martin-athlete.jpg") no-repeat;
   background-size: cover;
   background-position: left top;
   background-repeat: no-repeat;
@@ -597,7 +616,7 @@
 }
 
 #mchu6:hover {
-  background: url("../staff/staff_img/simone-portrait.png") no-repeat;
+  background: url("../staff/staff_img/martin-portrait.jpg") no-repeat;
   background-size: cover;
   background-position: left top;
   background-repeat: no-repeat;
@@ -621,7 +640,7 @@
 }
 
 #mtrieben {
-  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background: url("../staff/staff_img/marina-athlete.jpg") no-repeat;
   background-size: cover;
   background-position: left top;
   background-repeat: no-repeat;
@@ -637,7 +656,7 @@
 }
 
 #oorrellj {
-  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background: url("../staff/staff_img/olivia-athlete.jpg") no-repeat;
   background-size: cover;
   background-position: left top;
   background-repeat: no-repeat;
@@ -669,7 +688,7 @@
 }
 
 #rmalone1 {
-  background: url("../staff/staff_img/simone-action.png") no-repeat;
+  background: url("../staff/staff_img/ian-athlete.jpg") no-repeat;
   background-size: cover;
   background-position: left top;
   background-repeat: no-repeat;
