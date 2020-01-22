@@ -144,6 +144,10 @@ h6 {
   width: auto;
 }
 
+.athlete-row {
+  height: 115px;
+}
+
 /* #prof-pic {
   display: grid;
   grid-template-columns: auto;
@@ -171,19 +175,7 @@ h6 {
   margin-bottom: 15px;
 }
 
-/* #cit-pic {
-  display: flex;
-  width: 100%;
-  margin: auto;
-  align-self: left;
-  justify-content: left;
-  align-items: center;
-} */
-
 #carousel-pic {
-  /* display: flex;
-  width: 60%;
-	height: auto; */
   display: flex;
   width: 100%;
   margin: auto;
@@ -356,8 +348,7 @@ hr {
 
 #athlete-pic {
   float: left;
-  width: 17%;
-  height: auto;
+  width: 70px;
   margin-left: 15px;
   margin-bottom: 15px;
   position: relative;
