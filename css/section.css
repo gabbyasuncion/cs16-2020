@@ -286,7 +286,7 @@ tr {
 }
 
 #team10 {
-  background: url("../teams/teams_img/simone-aly-hugging.png") no-repeat;
+  background: url("../teams/teams_img/lucy-jason-athlete.png") no-repeat;
   background-size: cover;
   background-repeat: repeat;
   background-position: left top;
@@ -294,7 +294,7 @@ tr {
 }
 
 #team10:hover {
-  background: url("../teams/teams_img/simone-and-aly.png") no-repeat;
+  background: url("../teams/teams_img/lucy-jason.png") no-repeat;
   background-size: cover;
   background-repeat: repeat;
   background-position: left top;
