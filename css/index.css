@@ -12,7 +12,7 @@ h6 {
 }
 
 #home-carousel {
-  height: 60vh;
+  height: 45vh;
 }
 
 .carousel-caption {
@@ -28,7 +28,7 @@ h6 {
 }
 
 .item {
-  height: 60vh;
+  height: 45vh;
   display: flex;
   justify-content: center;
 }
@@ -145,7 +145,9 @@ h6 {
 }
 
 .athlete-row {
-  height: 115px;
+  width: 100%;
+  height: 125px;
+  display: block;
 }
 
 #team-pic {
@@ -166,6 +168,7 @@ h6 {
   align-self: left;
   justify-content: left;
   align-items: center;
+  position: middle;
 }
 
 #team-info {
@@ -332,7 +335,7 @@ hr {
 
 #athlete-pic {
   float: left;
-  width: 70px;
+  width: 4vw;
   margin-left: 15px;
   margin-bottom: 15px;
   position: relative;
@@ -416,6 +419,20 @@ hr {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  #athlete-txt {
+    font-size: 15px;
+  }
+
+  #athlete-txt-bottom {
+    font-size: 11px;
+  }
+
+  .athlete-row {
+    height: 100px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   #logo-title {
     position: relative;
@@ -427,6 +444,14 @@ hr {
 
   #alert {
     font-size: 20px;
+  }
+
+  #athlete-pic {
+    width: 9vw;
+  }
+
+  .athlete-row {
+    height: 115px;
   }
 
   #news {
